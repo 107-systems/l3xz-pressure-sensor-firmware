@@ -12,6 +12,11 @@ Firmware for the [L3X-Z](https://github.com/107-systems/l3xz) pressure sensor wh
   <a href="https://github.com/107-systems/l3xz"><img src="https://raw.githubusercontent.com/107-systems/.github/main/logo/l3xz-logo-memento-mori-github.png" width="40%"></a>
 </p>
 
+## Schematic for conversion circuit
+<p align="center">
+  <img src="pressure-sensor-current-voltage-conversion.png" width="60%">
+</p>
+
 ## How-to-build/upload
 ```bash
 arduino-cli compile -b rp2040:rp2040:rpipico -v .
