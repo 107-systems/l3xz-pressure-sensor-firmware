@@ -47,8 +47,8 @@ static int const PRESSURE_1_INPUT_PIN = 28; /* ANALOG_INPUT 1 */
 
 static SPISettings const MCP2515x_SPI_SETTING{10*1000*1000UL, MSBFIRST, SPI_MODE0};
 
-static uint16_t const UPDATE_PERIOD_PRESSURE_0_ms = 1000;
-static uint16_t const UPDATE_PERIOD_PRESSURE_1_ms = 1000;
+static uint16_t const UPDATE_PERIOD_PRESSURE_0_ms =  100;
+static uint16_t const UPDATE_PERIOD_PRESSURE_1_ms =  100;
 static uint16_t const UPDATE_PERIOD_HEARTBEAT_ms  = 1000;
 
 static uint32_t const WATCHDOG_DELAY_ms = 1000;
