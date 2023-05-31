@@ -336,8 +336,8 @@ void loop()
 
     static float constexpr I_MIN =  4.0 / 1000.0f;
     static float constexpr I_MAX = 20.0 / 1000.0f;
-    if (i_shunt < I_MIN) return std::numeric_limits<float>::min();
-    if (i_shunt > I_MAX) return std::numeric_limits<float>::min();
+    if (i_shunt < I_MIN) return std::numeric_limits<float>::lowest();
+    if (i_shunt > I_MAX) return std::numeric_limits<float>::lowest();
 
     static float constexpr P_MIN = 0;
     static float constexpr P_MAX = 25;
